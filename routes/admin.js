@@ -1,6 +1,6 @@
 const express=require("express")
 const router =express.Router();
-const {working,rehiveActivation,rehiveDeactivation,deposit_omnibus,webHooks,PostwebHooks,isWithDraw,quote}=require("../controllers/admin")
+const {working,deposit_omnibus,webHooks,PostwebHooks,isWithDraw,quote}=require("../controllers/admin")
 
 
 router.route("/").get(working)

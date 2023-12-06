@@ -271,4 +271,4 @@ const quote=async(req,res)=>{
 
 
 
-module.exports={working,rehiveActivation,rehiveDeactivation,deposit_omnibus,webHooks,PostwebHooks,isWithDraw,quote}
+module.exports={working,deposit_omnibus,webHooks,PostwebHooks,isWithDraw,quote}
