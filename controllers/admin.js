@@ -5,7 +5,7 @@ require('dotenv').config();
 // importing the email and password of the user who is adding the extension
 let Email=process.env.Email 
 let Password=process.env.Password
-let token=process.env.APITOKEN || "7bd33a3840f596eeeda7c4c6a78e29b87312bf5971c3bdaa21d738359a0f3d2a";
+let token="7bd33a3840f596eeeda7c4c6a78e29b87312bf5971c3bdaa21d738359a0f3d2a";
 //3785503f8e6da7daef1c0943798dc856b3329ce51ed15d11a1c9a3422afe6956
  let rehive= new Rehive({
   apiVersion: 3, 
