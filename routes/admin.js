@@ -5,9 +5,6 @@ const {working,deposit_omnibus,webHooks,PostwebHooks,isWithDraw,quote}=require("
 
 router.route("/").get(working)
 
-router.route("/activate").post(rehiveActivation)
-
-router.route("/deactivate").post(rehiveDeactivation)
 router.route("/getwebHooks").get(webHooks)
 router.route("/PostwebHooks").post(PostwebHooks)
 
