@@ -3,8 +3,8 @@ const Rehive=require('rehive') //rehive js sdk
 require('dotenv').config();
 
 // importing the email and password of the user who is adding the extension
-let Email=process.env.Email 
-let Password=process.env.Password
+/* let Email=process.env.Email 
+let Password=process.env.Password */
 let token="7bd33a3840f596eeeda7c4c6a78e29b87312bf5971c3bdaa21d738359a0f3d2a";
 //3785503f8e6da7daef1c0943798dc856b3329ce51ed15d11a1c9a3422afe6956
  let rehive= new Rehive({
@@ -21,7 +21,7 @@ const working=async (req,res)=>{
 
 
 // it is the end point to /activate. The request body contains the Token, which we need to send to the url = "https://api.rehive.com/3/auth/" with the login credentials to get verified.
-const rehiveActivation=async (req,res)=>{
+/* const rehiveActivation=async (req,res)=>{
     console.log("req body",req.body);
     const url = "https://api.rehive.com/3/auth/";
     const {token} = req.body
@@ -70,7 +70,7 @@ res.json({
   status: 'OK',
 })
 
-}
+} */
 
  
 const webHooks=async(req,res)=>{
